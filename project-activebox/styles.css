@@ -1,0 +1,8 @@
+#header nav {
+    padding: 0px 15%;
+}
+
+#header{
+    min-height: 50%;
+    background-image: url(../assets/images/banner.jpg);
+}
