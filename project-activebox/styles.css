@@ -2,7 +2,41 @@
     padding: 0px 15%;
 }
 
-#header{
-    min-height: 50%;
+.banner {
     background-image: url(../assets/images/banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
 }
+
+.banner-text {
+    padding-top: 25%;
+}
+
+.banner-text h1{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 22px;
+}
+
+footer { 
+    display: block;
+}
+
+#dl{
+    text-transform: uppercase;
+    
+}
+#p{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
