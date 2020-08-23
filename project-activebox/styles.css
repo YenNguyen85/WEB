@@ -1,5 +1,16 @@
 #header nav {
-    padding: 0px 15%;
+    padding: 25px 15%;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+}
+
+hr {
+    border-color: white;
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .banner {
@@ -7,23 +18,28 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 750px;
+    min-height: 700px;
 }
 
-.banner-text {
-    padding-top: 25%;
-}
+    .banner-text {
+        padding-top: 15%;
+    }
 
-.banner-text h1{
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-}
+    .banner-text h1{
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 
-.banner-text p{
-    color: white;
-    font-size: 22px;
-}
+    .banner-text p{
+        color: white;
+        font-size: 22px;
+    }
+
+    .banner .card-text {
+        font-weight: 100;
+    }
+
 
 footer { 
     display: block;
