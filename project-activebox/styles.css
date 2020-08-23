@@ -1,58 +1,101 @@
-#header nav {
-    padding: 25px 15%;
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  a {
+    text-decoration: none;
 }
 
-#header .nav-link {
-    text-transform: uppercase;
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
 
-hr {
-    border-color: white;
-    width: 70%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.header,
+.footer {
+    background: #15181f url(../assets/images/banner.jpg) repeat;
+    color: #fff;
 }
 
-.banner {
-    background-image: url(../assets/images/banner.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 700px;
+.middle {
+    background: #fff;
+    padding: 20px; /*chỉnh khối cách lề*/
+}
+/*chỉnh 2 khối*/
+.noidung{
+    background-color: white;
+    width: 960px;
+    height: 400px;
+    margin-bottom: 10px;
+    padding-top : 20px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid/*đường thẳng*/ red; /* đường kẻ giữa 2 khối */
+    padding-left: 10px;
+}
+.doan{
+    /*font-style: 20px;*/
+    /*font-weight: bold; (in đậm)*/
+    font-family: Arial;
+    line-height: 30px; /*(giãn dòng)*/ 
+}
+.img-noidung{
+    width: 150px;
+    float: left; /*hình bên trái chữ*/
+    margin-right: 20px; /* chữ nằm ngay khung */
+}
+.khoi-tong{
+    width: 1000px;
+    border: 2px solid blueviolet; /*viền tím*/
 }
 
-    .banner-text {
-        padding-top: 15%;
-    }
 
-    .banner-text h1{
-        color: white;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .banner-text p{
-        color: white;
-        font-size: 22px;
-    }
-
-    .banner .card-text {
-        font-weight: 100;
-    }
-
-
-footer { 
+/*gan link và chỉnh hover*/
+.gan-link-hinh-hover{
+    width: 860px;
+    background-color: yellow;
+}
+.hinh-hover{
+   width: 100%;
+}
+.link-chu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
     display: block;
+    margin-bottom: 10px;  
+
+}
+a.link-chu:hover{
+    text-decoration: none;
+    color: orangered;
+    text-decoration: none;
 }
 
-#dl{
-    text-transform: uppercase;
-    
+/*nhiều khối ngang*/
+article.tin-phu{
+    padding: 10px;
+    background-color: green;
+    width: 860px;
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
-#p{
-    font-weight: 700;
-    text-transform: uppercase;
+
+div.nhieu-tin-nho-ngang{
+    width: 230px;
+    float: left;
+    margin-right: 10px;/*cách khung phải*/
+    margin-left: 40px;/*cách khung trái*/
+    padding-right:30px; /*chữ ngay hình*/
+    padding-top: 20px;
 }
-
-
-
+.hinh-nho{
+    width: 200px;
+    height: 160px;
+    padding-top:10px;
+}
