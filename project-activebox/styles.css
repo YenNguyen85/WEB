@@ -83,7 +83,7 @@ article.tin-phu{
     width: 860px;
     display: block;
     margin-bottom: 10px;
-    overflow: hidden;
+    overflow: hidden; /*không nhảy lum la*/
 }
 
 div.nhieu-tin-nho-ngang{
@@ -98,4 +98,23 @@ div.nhieu-tin-nho-ngang{
     width: 200px;
     height: 160px;
     padding-top:10px;
+}
+
+/*gạch đường thẳng dưới tiêu đề*/
+div.gach-chan-chu{
+    color: red;
+    font-weight: bold; 
+    border-bottom: 3px solid red;
+   
+}
+/*nhúng video*/
+.nhung-video{
+    width: 100%;
+    margin-top: 10px;
+    /*text-align: center; giữa trang*/
+}
+/* gắn icon*/
+.icon{
+    color: blue;
+    font-style: 60px;
 }
