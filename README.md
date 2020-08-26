@@ -1,15 +1,15 @@
 # Yen hoc web frontend 
 *Mục lục*
 
-1. [Tạo hai khối](bai1)
-2. [Gắn link vào hình và chỉnh hover](bai2)
-3. [Tạo nhiều tin nhỏ ngang](bai3)
-4. [Gắn/ nhúng video](bai4)
-5. [Gắn icon](bai5)
+1. [Tạo hai khối](#bai1)
+2. [Gắn link vào hình và chỉnh hover](#bai2)
+3. [Tạo nhiều tin nhỏ ngang](#bai3)
+4. [Gắn/ nhúng video](#bai4)
+5. [Gắn icon](#bai5)
 
 
 
->### 1.TẠO HAI KHỐI <a name="bai1"></a>
+## 1.TẠO HAI KHỐI <a name="bai1"></a>
 ```html
 <div class="khoi-tong">
     <div class="noidung">
@@ -52,7 +52,7 @@
     border: 2px solid blueviolet; /*viền tím*/
 }
 ```
->### 2.Gắn link vào hình và chỉnh hover <a name="bai2"></a>
+## 2. Gắn link vào hình và chỉnh hover <a name="bai2"></a>
 ```html
  <div class="gan-link-hinh-hover">
     <a href="https://www.facebook.com/"><img class="hinh-hover" src="../assets/images/work-1.jpg"></a>
@@ -84,7 +84,7 @@ a.link-chu:hover{
     text-decoration: none;
 }
 ```
->### 3. TẠO NHIỀU TIN NHỎ NGANG <a name="bai3"></a>
+## 3. TẠO NHIỀU TIN NHỎ NGANG <a name="bai3"></a>
 ```html
 <article class="tin-phu">
     <div class="nhieu-tin-nho-ngang">
@@ -124,7 +124,7 @@ div.nhieu-tin-nho-ngang{
     padding-top:10px;
 }
 ```
->### 4. NHÚNG VIDEO <a name="bai4"></a>
+## 4. NHÚNG VIDEO <a name="bai4"></a>
 > chọn chia sẻ video chọn nhúng và sao chép rồi dán vào
 ```html
 <div class="nhung-video">
