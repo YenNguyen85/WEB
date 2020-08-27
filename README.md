@@ -6,8 +6,8 @@
 3. [Tạo nhiều tin nhỏ ngang](#bai3)
 4. [Gắn/ nhúng video](#bai4)
 5. [Gắn icon](#bai5)
-6. [Hiệu ứng đổi màu và nhích lên + chữ giữa đường kẻ](bai6)
-7. [chồng khối](bai7)
+6. [Hiệu ứng đổi màu và nhích lên + chữ giữa đường kẻ](#bai6)
+7. [chồng khối](#bai7)
 
 
 
