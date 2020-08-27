@@ -139,7 +139,7 @@ div.nhieu-tin-nho-ngang{
     /*text-align: center; giữa trang*/
 }
 ```
-## 4. GẮN ICON <a name="bai4"></a>
+## 5. GẮN ICON <a name="bai5"></a>
 ```html
 <head>
     <!-- javascript -->
