@@ -6,6 +6,8 @@
 3. [Tạo nhiều tin nhỏ ngang](#bai3)
 4. [Gắn/ nhúng video](#bai4)
 5. [Gắn icon](#bai5)
+6. [Hiệu ứng đổi màu và nhích lên + chữ giữa đường kẻ](bai6)
+7. [chồng khối](bai7)
 
 
 
@@ -160,5 +162,134 @@ cách 2: chỉnh trong css
 .icon{
     color: blue;
     font-style: 60px;
+}
+```
+## 6. HIỆU ỨNG ĐỔI MÀU VÀ NHẢY LÊN + chữ giữa đường kẻ <a name="bai6"></a>
+```HTML
+<div class="main-container">
+    <div class="follow-title">
+        <h3>follow us</h3>
+    </div>
+    <div class="follow-icon">
+        <div class="icon">
+            <i class="fab fa-facebook-square">
+                <p class="chu-duoi-icon">fans</p>
+            </i> 
+        </div>
+        <div class="icon tw">
+            <i class="fab fa-facebook-square">
+                <p class="chu-duoi-icon">followers</p>
+            </i>
+        </div>
+        <div class="icon gg">
+            <i class="fab fa-facebook-square">
+                <p class="chu-duoi-icon">yen</p>
+            </i>
+        </div>
+    </div>
+</div>
+```
+```css
+*{
+    margin: 0;
+    padding:0;
+    border: none;
+    background-color: grey;
+}
+.main-container{
+    width: 450px;
+    height: 260px;
+    margin: 20px;
+    padding: 20px;
+    background-color: brown;
+}
+.follow-title{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.follow-title h3{
+    background-color: brown;
+    display: inline;
+    color: white;
+    padding: 5px 10px;
+    position: relative;/*chỉnh chữ giữa đường kẻ*/
+    top: 20px;/*chỉnh chữ giữa đường kẻ*/
+    left: 50px;/*chỉnh chữ giữa đường kẻ*/
+}
+.follow-icon{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.icon i{
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    display: block;
+    margin-top:10px ;    
+}
+.chu-duoi-icon{
+    background-color: transparent;
+    margin-top: 10px ;
+   font-size: 20px;
+    color: white; 
+}
+.follow-icon :hover{
+    background-color: black;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+```
+## 7. CHỒNG KHỐI <a name="bai7"></a>
+```html
+ <div class="khoi-tong">
+    <div class="noi-dung">
+        <img src="../assets/images/team-1.jpg">
+        <a href="https://www.facebook.com/">Facebook</a>
+    </div>
+</div>
+```
+```css
+.khoi-tong{
+    width: 275px;
+    height: 250px;
+    padding-right: 15px;
+}
+.noi-dung{
+    width: 260px;
+    height: 195px;
+    position: relative;/*làm mốc*/
+}
+.noi-dung img{
+    width: 260px;
+    height: 195px;
+}
+.noi-dung a{
+    width: 260px;
+    font-size: 20px;
+    padding-left: 30px;
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #0000005e;
+    text-transform: uppercase;/* viết hoa*/
+    /* định vị trí theo hình*/
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 ```
