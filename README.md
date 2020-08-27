@@ -139,3 +139,26 @@ div.nhieu-tin-nho-ngang{
     /*text-align: center; giữa trang*/
 }
 ```
+## 4. GẮN ICON <a name="bai4"></a>
+```html
+<head>
+    <!-- javascript -->
+    <script src="https://kit.fontawesome.com/89b1e83cc8.js" crossorigin="anonymous"></script>
+</head>
+
+cách 1
+<span style="font-size: 3em; color: Tomato;">
+    <i class="fab fa-facebook-square"></i>
+</span>
+cách 2: chỉnh trong css
+<div class="icon"> 
+    <i class="fab fa-facebook-square"></i>
+</div>
+```
+```css
+/* gắn icon*/
+.icon{
+    color: blue;
+    font-style: 60px;
+}
+```
